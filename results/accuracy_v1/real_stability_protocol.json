@@ -1,0 +1,7 @@
+{
+  "reference": "Default automatic candidate masks; NOT manual ground truth",
+  "interpretation": "Changes measure algorithm repeatability and recovery-band sensitivity, not accuracy",
+  "independent_physical_rooms": 2,
+  "settings_per_room": 7,
+  "threshold": 0.5
+}

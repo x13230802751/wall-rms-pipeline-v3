@@ -1,0 +1,11 @@
+{
+  "cloud_payload_sha256": "FILL_FROM_ORIGINAL_FILE_PAYLOAD",
+  "reviewers": [],
+  "adjudicated": false,
+  "blind_to_predictions": false,
+  "unit": "m",
+  "boundary_policy": "Specify wall surfaces, frames, electrical components, real defects, unknown boundaries and instance grouping",
+  "reference_level": "B: annotated observed scan, not physical truth",
+  "annotation_date": null,
+  "adjudication_notes": "Complete after independent annotations; do not copy automatic candidate IDs as truth"
+}

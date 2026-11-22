@@ -1,0 +1,30 @@
+{
+  "up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "voxel_mm": 30.0,
+  "ransac_mm": 12.0,
+  "ransac_trials": 512,
+  "ransac_sample": 12000,
+  "max_planes": 28,
+  "min_plane_points": 120,
+  "radius_mm": 95.0,
+  "radius_min_neighbors": 4,
+  "cluster_eps_mm": 95.0,
+  "cluster_min_points": 4,
+  "min_wall_width_m": 0.8,
+  "min_wall_height_m": 1.2,
+  "min_wall_area_m2": 1.0,
+  "floor_touch_mm": 250.0,
+  "max_wall_tilt_deg": 15.0,
+  "max_floor_tilt_deg": 15.0,
+  "recovery_mm": 50.0,
+  "footprint_mm": 100.0,
+  "coverage_grid_mm": 100.0,
+  "seed": 7023,
+  "wall_label": 2,
+  "floor_label": 1,
+  "ceiling_label": 0
+}

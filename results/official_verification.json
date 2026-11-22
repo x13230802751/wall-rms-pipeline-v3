@@ -1,0 +1,78 @@
+[
+  {
+    "source": "M26_v1",
+    "input_points": 793393,
+    "wall_count": 4,
+    "source_hash": "a9b2b0c13d315314e106ecdbbc8e53acb693805dec8c6fb1c641f5a25dd48f91",
+    "nonoverlap": true,
+    "records": [
+      {
+        "wall": "W01",
+        "n": 53227,
+        "rms_mm": 5.5795223910519365,
+        "independent_eigen_rms_mm": 5.579522391036806,
+        "max_difference_mm": 1.5130119379591633e-11
+      },
+      {
+        "wall": "W02",
+        "n": 132027,
+        "rms_mm": 4.883044099608227,
+        "independent_eigen_rms_mm": 4.883044099555816,
+        "max_difference_mm": 5.241140854650439e-11
+      },
+      {
+        "wall": "W03",
+        "n": 138645,
+        "rms_mm": 1.9578794190983004,
+        "independent_eigen_rms_mm": 1.9578794193431241,
+        "max_difference_mm": 2.448237168550804e-10
+      },
+      {
+        "wall": "W04",
+        "n": 109501,
+        "rms_mm": 5.247318933284607,
+        "independent_eigen_rms_mm": 5.24731893328666,
+        "max_difference_mm": 2.0534685063466895e-12
+      }
+    ],
+    "gt_validation": false
+  },
+  {
+    "source": "M04_v1",
+    "input_points": 510190,
+    "wall_count": 4,
+    "source_hash": "bbaa83cbd814c20b06c80e87f23c72bc7cbd5f07c57530ff67432dea6444568f",
+    "nonoverlap": true,
+    "records": [
+      {
+        "wall": "W01",
+        "n": 117783,
+        "rms_mm": 4.329632504303281,
+        "independent_eigen_rms_mm": 4.329632504243188,
+        "max_difference_mm": 6.009326369849077e-11
+      },
+      {
+        "wall": "W02",
+        "n": 46842,
+        "rms_mm": 12.689243438076414,
+        "independent_eigen_rms_mm": 12.689243438074817,
+        "max_difference_mm": 1.5969447986208252e-12
+      },
+      {
+        "wall": "W03",
+        "n": 47347,
+        "rms_mm": 7.615061855424683,
+        "independent_eigen_rms_mm": 7.615061855419355,
+        "max_difference_mm": 5.328182339781051e-12
+      },
+      {
+        "wall": "W04",
+        "n": 115975,
+        "rms_mm": 1.8980723378160633,
+        "independent_eigen_rms_mm": 1.8980723377728288,
+        "max_difference_mm": 4.323452706955777e-11
+      }
+    ],
+    "gt_validation": false
+  }
+]

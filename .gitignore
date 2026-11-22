@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+.mplcache/
+outputs/
+data/
+*.pcd
+*.npz
+*.npy
+*.log
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,16 @@
+{
+  "revision_date": "2026-11-22",
+  "document": "docs/墙面选择与RMS准确性_评测方案及实验报告.docx",
+  "document_sha256": "599df339f6ce1e7c518255238a35b98b224148a02f2cee4de51e98ab8cff5d6e",
+  "pages": 13,
+  "visual_qa": "All 13 final pages rendered through Microsoft Word and Poppler and visually inspected; no clipping or overflow",
+  "renderer_fallback": "Packaged renderer lacks LibreOffice soffice.exe; Microsoft Word PDF export used",
+  "tests": {
+    "command": "python_local.ps1 -m unittest discover -s tests -v",
+    "passed": 21,
+    "failed": 0,
+    "seconds": 29.513
+  },
+  "tested_source": "Exact source hashes in protocol.json; fresh publication contains no prior Git commits",
+  "physical_ground_truth_verified": false
+}

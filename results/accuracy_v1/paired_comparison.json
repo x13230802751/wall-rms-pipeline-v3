@@ -1,0 +1,284 @@
+[
+  {
+    "condition": "clean",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.0003122529199165891,
+    "delta_mae_ci95": [
+      -0.000830230114407704,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "noise_05",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.0027998118923604487,
+    "delta_mae_ci95": [
+      -0.0045840201456500505,
+      -0.001297856040029007
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "noise_2",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.04101240851437345,
+    "delta_mae_ci95": [
+      -0.05230400816796426,
+      -0.027801141353456127
+    ],
+    "delta_success_02": 0.1375,
+    "delta_success_ci95": [
+      0.075,
+      0.1875
+    ]
+  },
+  {
+    "condition": "sparse25",
+    "source": "geometry",
+    "common_matched_walls": 0,
+    "not_common_matched_walls": 80,
+    "delta_mae_expanded_minus_paper_mm": null,
+    "delta_mae_ci95": null,
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "sparse10",
+    "source": "geometry",
+    "common_matched_walls": 0,
+    "not_common_matched_walls": 80,
+    "delta_mae_expanded_minus_paper_mm": null,
+    "delta_mae_ci95": null,
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "occlusion_center",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.00046059322739995246,
+    "delta_mae_ci95": [
+      -0.001275251036857794,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "bulge25",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -1.1521267040429468,
+    "delta_mae_ci95": [
+      -1.276401375229712,
+      -1.0229486843722349
+    ],
+    "delta_success_02": 0.25,
+    "delta_success_ci95": [
+      0.25,
+      0.25
+    ]
+  },
+  {
+    "condition": "bulge60",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.0006075327649398332,
+    "delta_mae_ci95": [
+      -0.0017160696494774364,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "recess25",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -1.1834466377803772,
+    "delta_mae_ci95": [
+      -1.2964554412421194,
+      -1.0671656564164291
+    ],
+    "delta_success_02": 0.25,
+    "delta_success_ci95": [
+      0.25,
+      0.25
+    ]
+  },
+  {
+    "condition": "near_clutter",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": 2.0176265624873793,
+    "delta_mae_ci95": [
+      1.8713351121892234,
+      2.1506654196009674
+    ],
+    "delta_success_02": -0.25,
+    "delta_success_ci95": [
+      -0.25,
+      -0.25
+    ]
+  },
+  {
+    "condition": "near_clutter",
+    "source": "oracle_semantics",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.00037096143445914943,
+    "delta_mae_ci95": [
+      -0.0010063556580353849,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "cabinet_floor",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.00037096143445914943,
+    "delta_mae_ci95": [
+      -0.0010063556580353849,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "cabinet_floor",
+    "source": "oracle_semantics",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.00037096143445914943,
+    "delta_mae_ci95": [
+      -0.0010063556580353849,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "density_gradient",
+    "source": "geometry",
+    "common_matched_walls": 60,
+    "not_common_matched_walls": 20,
+    "delta_mae_expanded_minus_paper_mm": -0.00646445446300629,
+    "delta_mae_ci95": [
+      -0.018387956496049185,
+      0.0009369612095566786
+    ],
+    "delta_success_02": 0.0125,
+    "delta_success_ci95": [
+      0.0,
+      0.0375
+    ]
+  },
+  {
+    "condition": "mixed",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": 2.091370974904892,
+    "delta_mae_ci95": [
+      1.963182907103419,
+      2.214593188896935
+    ],
+    "delta_success_02": -0.25,
+    "delta_success_ci95": [
+      -0.25,
+      -0.25
+    ]
+  },
+  {
+    "condition": "mixed",
+    "source": "oracle_semantics",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.011316429756496849,
+    "delta_mae_ci95": [
+      -0.01542202682853152,
+      -0.0072642280947047815
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "split_wall",
+    "source": "geometry",
+    "common_matched_walls": 80,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.0001065286453420633,
+    "delta_mae_ci95": [
+      -0.0003195859360261899,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "condition": "l_room",
+    "source": "geometry",
+    "common_matched_walls": 120,
+    "not_common_matched_walls": 0,
+    "delta_mae_expanded_minus_paper_mm": -0.0005419332407965956,
+    "delta_mae_ci95": [
+      -0.0012352861040964742,
+      0.0
+    ],
+    "delta_success_02": 0.0,
+    "delta_success_ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "cases": 14,
+  "completed_cases": 13,
+  "matched_walls": 52,
+  "max_independent_same_set_difference_mm": 1.6145856319499747e-13,
+  "max_selection_error_mm": 8.846370506684499,
+  "reference_definition": "Independent covariance-eigenvector fit and residual RMS of all observed true wall points; noise included, not physical scanner-free truth",
+  "labels_provenance": "Synthetic oracle labels, not predictions from a trained model",
+  "failure_policy": "All scenarios retained; no tuning to official RMS references"
+}

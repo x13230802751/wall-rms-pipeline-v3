@@ -1,0 +1,9 @@
+{
+  "evaluations": 720,
+  "target_wall_rows": 2960,
+  "groups": 36,
+  "max_oracle_numerical_error_mm": 1.839001603356746e-13,
+  "zero_or_near_zero_reference_rows": 386,
+  "no_global_accuracy_claim": true,
+  "physical_accuracy_validated": false
+}

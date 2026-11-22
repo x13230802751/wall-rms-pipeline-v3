@@ -1,0 +1,14 @@
+{
+  "source_repository": "https://github.com/x13230802751/civl7023-wall-flatness",
+  "source_commit": "56407caf4d1ec3c2234c890936cbf0677f6cda51",
+  "files": {
+    "io.py": {
+      "sha256_raw_copy": "16444fb11535d31c9522791c2c020393c3f9a46bb966fe271c9e21c5303d237c",
+      "sha256_lf_normalized": "16444fb11535d31c9522791c2c020393c3f9a46bb966fe271c9e21c5303d237c"
+    },
+    "geometry.py": {
+      "sha256_raw_copy": "8592a0d11a8b2f257151fa3e2d080d7344e9c8ca10bdca62ea03d1e3ced882c0",
+      "sha256_lf_normalized": "8592a0d11a8b2f257151fa3e2d080d7344e9c8ca10bdca62ea03d1e3ced882c0"
+    }
+  }
+}

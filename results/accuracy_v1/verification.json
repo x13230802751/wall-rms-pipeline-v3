@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "evaluations": 720,
+  "wall_rows": 2960,
+  "condition_groups": 36,
+  "max_error_identity_residual_mm": 1.7763568394002505e-15,
+  "source_hashes_verified": true,
+  "regenerated_hash_cases": [
+    [
+      2001,
+      "clean"
+    ],
+    [
+      2011,
+      "near_clutter"
+    ],
+    [
+      2020,
+      "l_room"
+    ]
+  ],
+  "checks": [
+    "missing/duplicate cases",
+    "failure denominators",
+    "wall counts",
+    "error decomposition",
+    "conditional MAE/RMSE",
+    "unconditional error success",
+    "instance counts",
+    "whole-room success",
+    "source and data hashes"
+  ],
+  "physical_ground_truth_verified": false
+}

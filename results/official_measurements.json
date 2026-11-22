@@ -1,0 +1,82 @@
+[
+  {
+    "room": "M26",
+    "wall": "W01",
+    "n": 53227,
+    "expanded_rms_mm": 5.5795223910519365,
+    "paper_rms_mm": 2.5649489232851965,
+    "difference_mm": 3.01457346776674,
+    "matched_official_gt": false,
+    "source_sha256": "a9b2b0c13d315314e106ecdbbc8e53acb693805dec8c6fb1c641f5a25dd48f91"
+  },
+  {
+    "room": "M26",
+    "wall": "W02",
+    "n": 132027,
+    "expanded_rms_mm": 4.883044099608227,
+    "paper_rms_mm": 1.4882294301321233,
+    "difference_mm": 3.394814669476104,
+    "matched_official_gt": false,
+    "source_sha256": "a9b2b0c13d315314e106ecdbbc8e53acb693805dec8c6fb1c641f5a25dd48f91"
+  },
+  {
+    "room": "M26",
+    "wall": "W03",
+    "n": 138645,
+    "expanded_rms_mm": 1.9578794190983004,
+    "paper_rms_mm": 1.2394040619261473,
+    "difference_mm": 0.7184753571721532,
+    "matched_official_gt": false,
+    "source_sha256": "a9b2b0c13d315314e106ecdbbc8e53acb693805dec8c6fb1c641f5a25dd48f91"
+  },
+  {
+    "room": "M26",
+    "wall": "W04",
+    "n": 109501,
+    "expanded_rms_mm": 5.247318933284607,
+    "paper_rms_mm": 1.1776632379321252,
+    "difference_mm": 4.069655695352481,
+    "matched_official_gt": false,
+    "source_sha256": "a9b2b0c13d315314e106ecdbbc8e53acb693805dec8c6fb1c641f5a25dd48f91"
+  },
+  {
+    "room": "M04",
+    "wall": "W01",
+    "n": 117783,
+    "expanded_rms_mm": 4.329632504303281,
+    "paper_rms_mm": 1.494252103492338,
+    "difference_mm": 2.8353804008109433,
+    "matched_official_gt": false,
+    "source_sha256": "bbaa83cbd814c20b06c80e87f23c72bc7cbd5f07c57530ff67432dea6444568f"
+  },
+  {
+    "room": "M04",
+    "wall": "W02",
+    "n": 46842,
+    "expanded_rms_mm": 12.689243438076414,
+    "paper_rms_mm": 1.9276044028934778,
+    "difference_mm": 10.761639035182936,
+    "matched_official_gt": false,
+    "source_sha256": "bbaa83cbd814c20b06c80e87f23c72bc7cbd5f07c57530ff67432dea6444568f"
+  },
+  {
+    "room": "M04",
+    "wall": "W03",
+    "n": 47347,
+    "expanded_rms_mm": 7.615061855424683,
+    "paper_rms_mm": 1.551797227909306,
+    "difference_mm": 6.063264627515377,
+    "matched_official_gt": false,
+    "source_sha256": "bbaa83cbd814c20b06c80e87f23c72bc7cbd5f07c57530ff67432dea6444568f"
+  },
+  {
+    "room": "M04",
+    "wall": "W04",
+    "n": 115975,
+    "expanded_rms_mm": 1.8980723378160633,
+    "paper_rms_mm": 1.4324209863474853,
+    "difference_mm": 0.46565135146857806,
+    "matched_official_gt": false,
+    "source_sha256": "bbaa83cbd814c20b06c80e87f23c72bc7cbd5f07c57530ff67432dea6444568f"
+  }
+]

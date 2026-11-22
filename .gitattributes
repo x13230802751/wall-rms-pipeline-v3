@@ -1,0 +1,4 @@
+# Preserve exact tested bytes on all platforms.
+* -text
+*.docx binary
+*.png binary

@@ -1,0 +1,3578 @@
+[
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 4.331358269600963e-15,
+    "mae_selection_mm": 4.928439070454668e-15,
+    "rmse_selection_mm": 2.229522135737776e-14,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.369662525527511e-14,
+    "maxae_selection_mm": 1.839001603356744e-13,
+    "bias_total_mm": -1.1016199745526366e-11,
+    "mae_total_mm": 1.6503542759845226e-11,
+    "rmse_total_mm": 6.013693114480865e-11,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.5745888012414225e-10,
+    "maxae_total_mm": 3.5756360584309865e-10,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "clean",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 5.482753113113809e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.5580876096903672e-15,
+        9.944638534936085e-15
+      ],
+      "rmse_selection_mm": [
+        3.9324220424689024e-15,
+        3.709661980249765e-14
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.00031225291991234655,
+    "mae_selection_mm": 0.00031225291992151755,
+    "rmse_selection_mm": 0.0020721163949477673,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 3.6716526306200236e-14,
+    "maxae_selection_mm": 0.016457941965962952,
+    "bias_total_mm": -0.00031225293093287767,
+    "mae_total_mm": 0.0003122529364202207,
+    "rmse_total_mm": 0.0020721163949482158,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.938896221696614e-10,
+    "maxae_total_mm": 0.016457941965965617,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "clean",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9999750212306434,
+    "best_iou_mean": 0.9999740505982103,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9999740505982103,
+    "mean_visible_grid_coverage": 0.9999880268199235,
+    "mean_boundary_recall": 0.9998453608247424,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 3.349931441352893e-05,
+    "mean_centroid_normal_offset_mm": 0.0003132031594331418,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        3.1796518230065055e-15,
+        0.000822897098304404
+      ],
+      "rmse_selection_mm": [
+        1.0722629210464665e-14,
+        0.0034602212184136755
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 1.3530843112619095e-16,
+    "mae_selection_mm": 5.5996873804531335e-16,
+    "rmse_selection_mm": 8.329216557198943e-16,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.7763568394002505e-15,
+    "maxae_selection_mm": 3.1086244689504383e-15,
+    "bias_total_mm": 0.16236496574946885,
+    "mae_total_mm": 0.16236496574946885,
+    "rmse_total_mm": 0.23361494438881342,
+    "medae_total_mm": 0.08072913659110148,
+    "p95ae_total_mm": 0.5045751202892098,
+    "maxae_total_mm": 0.5122087440036893,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "noise_05",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 5.53482729361695e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.16236496576048923,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        4.65599780952175e-16,
+        6.515794848116484e-16
+      ],
+      "rmse_selection_mm": [
+        6.726340561261086e-16,
+        9.902902868061216e-16
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.002799811892360491,
+    "mae_selection_mm": 0.0027998118923610086,
+    "rmse_selection_mm": 0.009482368855667469,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 0.017964830930841957,
+    "maxae_selection_mm": 0.050086391194776425,
+    "bias_total_mm": 0.1595651538571082,
+    "mae_total_mm": 0.1607586348472692,
+    "rmse_total_mm": 0.23348825027126582,
+    "medae_total_mm": 0.08072913659110148,
+    "p95ae_total_mm": 0.5045751202892098,
+    "maxae_total_mm": 0.5122087440036893,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "noise_05",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9997927956067088,
+    "best_iou_mean": 0.999776778191886,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.999776778191886,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 0.9997938144329896,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.00020242132988275741,
+    "mean_centroid_normal_offset_mm": 0.0027474327237681064,
+    "ma_e_noise_mm": 0.16236496576048923,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.0012519145213856133,
+        0.004593425159458243
+      ],
+      "rmse_selection_mm": [
+        0.004623714308727532,
+        0.013335921760420508
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -1.249000902703301e-16,
+    "mae_selection_mm": 6.300515664747763e-16,
+    "rmse_selection_mm": 8.451561381036868e-16,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.7763568394002505e-15,
+    "maxae_selection_mm": 2.220446049250313e-15,
+    "bias_total_mm": 1.110042402221969,
+    "mae_total_mm": 1.110042402221969,
+    "rmse_total_mm": 1.2473925350829413,
+    "medae_total_mm": 0.9273858630563203,
+    "p95ae_total_mm": 2.018299556007542,
+    "maxae_total_mm": 2.0488357242548556,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "noise_2",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 3.0064405161673364e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 1.1100424022329896,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        4.884981308350689e-16,
+        7.771561172376096e-16
+      ],
+      "rmse_selection_mm": [
+        6.937672516413282e-16,
+        9.97047343513277e-16
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.0410124085143738,
+    "mae_selection_mm": 0.04101240851437408,
+    "rmse_selection_mm": 0.0983605862770056,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 0.24968362888677303,
+    "maxae_selection_mm": 0.33389607525231835,
+    "bias_total_mm": 1.0690299937075953,
+    "mae_total_mm": 1.0690299937075953,
+    "rmse_total_mm": 1.2384451999743393,
+    "medae_total_mm": 0.9273858630563203,
+    "p95ae_total_mm": 2.018299556007542,
+    "maxae_total_mm": 2.0488357242548556,
+    "success_02": 0.8625,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 0.8625,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "noise_2",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.45,
+    "room_joint_success_exact_ci95": [
+      0.2305778967759241,
+      0.6847218669594515
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9970651150207022,
+    "best_iou_mean": 0.9970023267058614,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9970023267058613,
+    "mean_visible_grid_coverage": 0.9999764342812677,
+    "mean_boundary_recall": 0.9978570167399162,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.0009290867960591445,
+    "mean_centroid_normal_offset_mm": 0.024444138743628396,
+    "ma_e_noise_mm": 1.1100424022329896,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.027955642838233877,
+        0.053057250346196676
+      ],
+      "rmse_selection_mm": [
+        0.07905364931196415,
+        0.11473557181463855
+      ],
+      "success_02": [
+        0.8125,
+        0.925
+      ],
+      "strict_joint_success": [
+        0.8125,
+        0.925
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.25,
+        0.7
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 0,
+    "valid_rate": 0.0,
+    "bias_selection_mm": null,
+    "mae_selection_mm": null,
+    "rmse_selection_mm": null,
+    "medae_selection_mm": null,
+    "p95ae_selection_mm": null,
+    "maxae_selection_mm": null,
+    "bias_total_mm": null,
+    "mae_total_mm": null,
+    "rmse_total_mm": null,
+    "medae_total_mm": null,
+    "p95ae_total_mm": null,
+    "maxae_total_mm": null,
+    "success_02": 0.0,
+    "success_05": 0.0,
+    "success_10": 0.0,
+    "strict_joint_success": 0.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "sparse25",
+    "pipeline_failures": 20,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.5": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.75": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "binary_iou": 0.0,
+    "best_iou_mean": 0.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": null,
+    "mean_recall": null,
+    "mean_visible_grid_coverage": null,
+    "mean_boundary_recall": null,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": null,
+    "mean_centroid_normal_offset_mm": null,
+    "ma_e_noise_mm": null,
+    "ma_e_visibility_mm": null,
+    "ci95": {
+      "valid_rate": [
+        0.0,
+        0.0
+      ],
+      "mae_selection_mm": null,
+      "rmse_selection_mm": null,
+      "success_02": [
+        0.0,
+        0.0
+      ],
+      "strict_joint_success": [
+        0.0,
+        0.0
+      ],
+      "instance_f1": [
+        0.0,
+        0.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 0,
+    "valid_rate": 0.0,
+    "bias_selection_mm": null,
+    "mae_selection_mm": null,
+    "rmse_selection_mm": null,
+    "medae_selection_mm": null,
+    "p95ae_selection_mm": null,
+    "maxae_selection_mm": null,
+    "bias_total_mm": null,
+    "mae_total_mm": null,
+    "rmse_total_mm": null,
+    "medae_total_mm": null,
+    "p95ae_total_mm": null,
+    "maxae_total_mm": null,
+    "success_02": 0.0,
+    "success_05": 0.0,
+    "success_10": 0.0,
+    "strict_joint_success": 0.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "sparse25",
+    "pipeline_failures": 20,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.5": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.75": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "binary_iou": 0.0,
+    "best_iou_mean": 0.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": null,
+    "mean_recall": null,
+    "mean_visible_grid_coverage": null,
+    "mean_boundary_recall": null,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": null,
+    "mean_centroid_normal_offset_mm": null,
+    "ma_e_noise_mm": null,
+    "ma_e_visibility_mm": null,
+    "ci95": {
+      "valid_rate": [
+        0.0,
+        0.0
+      ],
+      "mae_selection_mm": null,
+      "rmse_selection_mm": null,
+      "success_02": [
+        0.0,
+        0.0
+      ],
+      "strict_joint_success": [
+        0.0,
+        0.0
+      ],
+      "instance_f1": [
+        0.0,
+        0.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 0,
+    "valid_rate": 0.0,
+    "bias_selection_mm": null,
+    "mae_selection_mm": null,
+    "rmse_selection_mm": null,
+    "medae_selection_mm": null,
+    "p95ae_selection_mm": null,
+    "maxae_selection_mm": null,
+    "bias_total_mm": null,
+    "mae_total_mm": null,
+    "rmse_total_mm": null,
+    "medae_total_mm": null,
+    "p95ae_total_mm": null,
+    "maxae_total_mm": null,
+    "success_02": 0.0,
+    "success_05": 0.0,
+    "success_10": 0.0,
+    "strict_joint_success": 0.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "sparse10",
+    "pipeline_failures": 20,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.5": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.75": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "binary_iou": 0.0,
+    "best_iou_mean": 0.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": null,
+    "mean_recall": null,
+    "mean_visible_grid_coverage": null,
+    "mean_boundary_recall": null,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": null,
+    "mean_centroid_normal_offset_mm": null,
+    "ma_e_noise_mm": null,
+    "ma_e_visibility_mm": null,
+    "ci95": {
+      "valid_rate": [
+        0.0,
+        0.0
+      ],
+      "mae_selection_mm": null,
+      "rmse_selection_mm": null,
+      "success_02": [
+        0.0,
+        0.0
+      ],
+      "strict_joint_success": [
+        0.0,
+        0.0
+      ],
+      "instance_f1": [
+        0.0,
+        0.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 0,
+    "valid_rate": 0.0,
+    "bias_selection_mm": null,
+    "mae_selection_mm": null,
+    "rmse_selection_mm": null,
+    "medae_selection_mm": null,
+    "p95ae_selection_mm": null,
+    "maxae_selection_mm": null,
+    "bias_total_mm": null,
+    "mae_total_mm": null,
+    "rmse_total_mm": null,
+    "medae_total_mm": null,
+    "p95ae_total_mm": null,
+    "maxae_total_mm": null,
+    "success_02": 0.0,
+    "success_05": 0.0,
+    "success_10": 0.0,
+    "strict_joint_success": 0.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "sparse10",
+    "pipeline_failures": 20,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.5": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "instance_0.75": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 80,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "binary_iou": 0.0,
+    "best_iou_mean": 0.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": null,
+    "mean_recall": null,
+    "mean_visible_grid_coverage": null,
+    "mean_boundary_recall": null,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": null,
+    "mean_centroid_normal_offset_mm": null,
+    "ma_e_noise_mm": null,
+    "ma_e_visibility_mm": null,
+    "ci95": {
+      "valid_rate": [
+        0.0,
+        0.0
+      ],
+      "mae_selection_mm": null,
+      "rmse_selection_mm": null,
+      "success_02": [
+        0.0,
+        0.0
+      ],
+      "strict_joint_success": [
+        0.0,
+        0.0
+      ],
+      "instance_f1": [
+        0.0,
+        0.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 1.891892826933086e-15,
+    "mae_selection_mm": 2.6158424435211235e-15,
+    "rmse_selection_mm": 8.60260898535626e-15,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.309644224860307e-14,
+    "maxae_selection_mm": 6.018259653289108e-14,
+    "bias_total_mm": 0.004967932276151439,
+    "mae_total_mm": 0.015146209980493357,
+    "rmse_total_mm": 0.042252562610413276,
+    "medae_total_mm": 8.43769498715119e-15,
+    "p95ae_total_mm": 0.11562053652690196,
+    "maxae_total_mm": 0.20364073807719252,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "occlusion_center",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 5.876421254053634e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 0.015146209980494967,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.2153309230191427e-15,
+        4.3403771821143755e-15
+      ],
+      "rmse_selection_mm": [
+        3.033272728530977e-15,
+        1.318496721608905e-14
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.0004605932273981494,
+    "mae_selection_mm": 0.00046059322740256827,
+    "rmse_selection_mm": 0.003307084281311957,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 2.0960129162080465e-14,
+    "maxae_selection_mm": 0.02832516656463202,
+    "bias_total_mm": 0.004507339048751398,
+    "mae_total_mm": 0.014898674043777576,
+    "rmse_total_mm": 0.041354533807451334,
+    "medae_total_mm": 8.881784197001252e-15,
+    "p95ae_total_mm": 0.11303503086817723,
+    "maxae_total_mm": 0.20364073807719252,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "occlusion_center",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9999658072875514,
+    "best_iou_mean": 0.9999609627786891,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9999609627786892,
+    "mean_visible_grid_coverage": 0.999985276796231,
+    "mean_boundary_recall": 0.9998453608247424,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 4.492396065661149e-05,
+    "mean_centroid_normal_offset_mm": 0.00047277576051006154,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 0.015146209980494967,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        2.0640990969965225e-15,
+        0.0011687223915188194
+      ],
+      "rmse_selection_mm": [
+        6.284550379426136e-15,
+        0.005567286858655149
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 1.91657990322372e-15,
+    "mae_selection_mm": 2.7690119997412103e-15,
+    "rmse_selection_mm": 8.635875724257163e-15,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.309644224860307e-14,
+    "maxae_selection_mm": 6.018259653289108e-14,
+    "bias_total_mm": -1.1366989089522734e-11,
+    "mae_total_mm": 1.6152937990426703e-11,
+    "rmse_total_mm": 6.009896206619557e-11,
+    "medae_total_mm": 4.524158825347513e-15,
+    "p95ae_total_mm": 1.5745888012414225e-10,
+    "maxae_total_mm": 3.5756360584309865e-10,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": 1.0,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "bulge25",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": 1.0,
+    "mean_normal_error_deg": 5.515815292921837e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6154667203370454e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.3907847926939588e-15,
+        4.5073807274024784e-15
+      ],
+      "rmse_selection_mm": [
+        3.1256773255614588e-15,
+        1.3185919707701743e-14
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -1.1521267040429453,
+    "mae_selection_mm": 1.1521267040429497,
+    "rmse_selection_mm": 2.3750255931056374,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 5.591772197669871,
+    "maxae_selection_mm": 6.227076700234161,
+    "bias_total_mm": -1.152126704054314,
+    "mae_total_mm": 1.1521267040590994,
+    "rmse_total_mm": 2.3750255931056383,
+    "medae_total_mm": 8.881784197001252e-15,
+    "p95ae_total_mm": 5.59177219766988,
+    "maxae_total_mm": 6.227076700234155,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": 0.0,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "bulge25",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9814716873389377,
+    "best_iou_mean": 0.983561212198906,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9835612121989058,
+    "mean_visible_grid_coverage": 0.9859376797459095,
+    "mean_boundary_recall": 0.999742268041237,
+    "mean_defect_recall": 0.0,
+    "mean_normal_error_deg": 0.0070490033432242995,
+    "mean_centroid_normal_offset_mm": 0.4043868188600439,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6154667203370454e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.0273431690770105,
+        1.2754229217730553
+      ],
+      "rmse_selection_mm": [
+        2.1343857336384975,
+        2.6001181183596254
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -3.241948117484364,
+    "mae_selection_mm": 3.2419481174843683,
+    "rmse_selection_mm": 6.524779596943836,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 14.326148466034605,
+    "maxae_selection_mm": 14.944975499494971,
+    "bias_total_mm": -3.2419481174957325,
+    "mae_total_mm": 3.2419481175005176,
+    "rmse_total_mm": 6.524779596943835,
+    "medae_total_mm": 8.43769498715119e-15,
+    "p95ae_total_mm": 14.326148466034605,
+    "maxae_total_mm": 14.94497549949497,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": 0.0,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "bulge60",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9815191436307718,
+    "best_iou_mean": 0.9836090700719712,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9836090700719711,
+    "mean_visible_grid_coverage": 0.9859496529259862,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": 0.0,
+    "mean_normal_error_deg": 0.017147489251818016,
+    "mean_centroid_normal_offset_mm": 0.9784679288225764,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6154522874377254e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        3.0729816060824513,
+        3.390433627888176
+      ],
+      "rmse_selection_mm": [
+        6.191831117747443,
+        6.804286996355622
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -3.2425556502493036,
+    "mae_selection_mm": 3.242555650249308,
+    "rmse_selection_mm": 6.525553426101006,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 14.326148466034605,
+    "maxae_selection_mm": 14.944975499494971,
+    "bias_total_mm": -3.2425556502606723,
+    "mae_total_mm": 3.2425556502654573,
+    "rmse_total_mm": 6.5255534261010055,
+    "medae_total_mm": 8.881784197001252e-15,
+    "p95ae_total_mm": 14.326148466034605,
+    "maxae_total_mm": 14.94497549949497,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": 0.0,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "bulge60",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9814716873389377,
+    "best_iou_mean": 0.983561212198906,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9835612121989058,
+    "mean_visible_grid_coverage": 0.9859376797459095,
+    "mean_boundary_recall": 0.999742268041237,
+    "mean_defect_recall": 0.0,
+    "mean_normal_error_deg": 0.01715428434895391,
+    "mean_centroid_normal_offset_mm": 0.9780693658440066,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6154522874377254e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        3.0804563811337693,
+        3.39406179137339
+      ],
+      "rmse_selection_mm": [
+        6.207489227174231,
+        6.810991556742379
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 1.983193284701229e-15,
+    "mae_selection_mm": 2.7690119997412103e-15,
+    "rmse_selection_mm": 8.629021983343828e-15,
+    "medae_selection_mm": 5.273559366969494e-16,
+    "p95ae_selection_mm": 1.309644224860307e-14,
+    "maxae_selection_mm": 6.018259653289108e-14,
+    "bias_total_mm": -1.1367111214055443e-11,
+    "mae_total_mm": 1.6153304364024828e-11,
+    "rmse_total_mm": 6.009896211599246e-11,
+    "medae_total_mm": 5.6066262743570405e-15,
+    "p95ae_total_mm": 1.5745888012414225e-10,
+    "maxae_total_mm": 3.5756360584309865e-10,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": 1.0,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "recess25",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": 1.0,
+    "mean_normal_error_deg": 5.390081586445275e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6154789327903163e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.3923381623672386e-15,
+        4.58066924604276e-15
+      ],
+      "rmse_selection_mm": [
+        3.1135087736179845e-15,
+        1.3398755238768208e-14
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -1.1834466377803756,
+    "mae_selection_mm": 1.18344663778038,
+    "rmse_selection_mm": 2.4214445269534157,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 5.644085276753498,
+    "maxae_selection_mm": 6.227076700234163,
+    "bias_total_mm": -1.1834466377917447,
+    "mae_total_mm": 1.1834466377965298,
+    "rmse_total_mm": 2.4214445269534166,
+    "medae_total_mm": 8.881784197001252e-15,
+    "p95ae_total_mm": 5.6440852767535,
+    "maxae_total_mm": 6.227076700234155,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": 0.0,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "recess25",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9814716873389377,
+    "best_iou_mean": 0.983561212198906,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9835612121989058,
+    "mean_visible_grid_coverage": 0.9859376797459095,
+    "mean_boundary_recall": 0.999742268041237,
+    "mean_defect_recall": 0.0,
+    "mean_normal_error_deg": 0.0074179658903826854,
+    "mean_centroid_normal_offset_mm": 0.41537396868004245,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6154789327903163e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.0740439158935078,
+        1.2926527217198656
+      ],
+      "rmse_selection_mm": [
+        2.2034548194762227,
+        2.6271560940561303
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 2.0179388154073,
+    "mae_selection_mm": 2.0179388154073004,
+    "rmse_selection_mm": 4.085571096388225,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 9.288903347491372,
+    "maxae_selection_mm": 9.905004147602403,
+    "bias_total_mm": 2.01793881539628,
+    "mae_total_mm": 2.0179388154237983,
+    "rmse_total_mm": 4.0855710963890575,
+    "medae_total_mm": 8.43769498715119e-15,
+    "p95ae_total_mm": 9.28890334749139,
+    "maxae_total_mm": 9.905004147613782,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "near_clutter",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9621118979988499,
+    "best_iou_mean": 0.969351077307938,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 0.9693510773079381,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.021791665891333533,
+    "mean_centroid_normal_offset_mm": 0.8996200331542671,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.876381194574022,
+        2.1554277774127764
+      ],
+      "rmse_selection_mm": [
+        3.8047830370973035,
+        4.349813963933084
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.00031225291991234655,
+    "mae_selection_mm": 0.00031225291992151755,
+    "rmse_selection_mm": 0.0020721163949477673,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 3.6716526306200236e-14,
+    "maxae_selection_mm": 0.016457941965962952,
+    "bias_total_mm": -0.00031225293093287767,
+    "mae_total_mm": 0.0003122529364202207,
+    "rmse_total_mm": 0.0020721163949482158,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.938896221696614e-10,
+    "maxae_total_mm": 0.016457941965965617,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "near_clutter",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9999750212306434,
+    "best_iou_mean": 0.9999740505982103,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9999740505982103,
+    "mean_visible_grid_coverage": 0.9999880268199235,
+    "mean_boundary_recall": 0.9998453608247424,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 3.349931441352893e-05,
+    "mean_centroid_normal_offset_mm": 0.0003132031594331418,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        2.91620060475976e-15,
+        0.0008302301144101776
+      ],
+      "rmse_selection_mm": [
+        9.298260585455749e-15,
+        0.0034602212184136755
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 4.331358269600963e-15,
+    "mae_selection_mm": 4.928439070454668e-15,
+    "rmse_selection_mm": 2.229522135737776e-14,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.369662525527511e-14,
+    "maxae_selection_mm": 1.839001603356744e-13,
+    "bias_total_mm": -1.1016199745526366e-11,
+    "mae_total_mm": 1.6503542759845226e-11,
+    "rmse_total_mm": 6.013693114480865e-11,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.5745888012414225e-10,
+    "maxae_total_mm": 3.5756360584309865e-10,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "oracle_semantics",
+    "mode": "expanded",
+    "condition": "near_clutter",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 5.482753113113809e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.6004032960432383e-15,
+        1.0032238182071565e-14
+      ],
+      "rmse_selection_mm": [
+        4.065142367796327e-15,
+        3.713167033092652e-14
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.0003709614344549069,
+    "mae_selection_mm": 0.00037096143446407783,
+    "rmse_selection_mm": 0.0025498714044228884,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 3.6716526306200236e-14,
+    "maxae_selection_mm": 0.021154623129367778,
+    "bias_total_mm": -0.000370961445475438,
+    "mae_total_mm": 0.00037096145096278106,
+    "rmse_total_mm": 0.002549871404423314,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.938896221696614e-10,
+    "maxae_total_mm": 0.021154623129370442,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "oracle_semantics",
+    "mode": "paper",
+    "condition": "near_clutter",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9999700262256483,
+    "best_iou_mean": 0.999969182049038,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.999969182049038,
+    "mean_visible_grid_coverage": 0.9999880268199235,
+    "mean_boundary_recall": 0.9998453608247424,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 4.035348332356151e-05,
+    "mean_centroid_normal_offset_mm": 0.0003721661590145362,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        2.996805594479654e-15,
+        0.0010063556580390284
+      ],
+      "rmse_selection_mm": [
+        9.36842634803526e-15,
+        0.004312500939710841
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -9.75947042114052e-05,
+    "mae_selection_mm": 0.00020588116732683697,
+    "rmse_selection_mm": 0.001440996618299879,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 3.6716526306200236e-14,
+    "maxae_selection_mm": 0.012139034861506248,
+    "bias_total_mm": -9.759471523193633e-05,
+    "mae_total_mm": 0.00020588118382545688,
+    "rmse_total_mm": 0.001440996618300281,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.938896221696614e-10,
+    "maxae_total_mm": 0.012139034861508469,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "cabinet_floor",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 20,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 20,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 20,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "binary_iou": 0.9222238894611055,
+    "best_iou_mean": 0.9997799156124622,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9997799156124622,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 0.9998936246684103,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 3.1427665843016874e-05,
+    "mean_centroid_normal_offset_mm": 0.0001426138365592382,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        3.250759123202803e-15,
+        0.0005635002704154704
+      ],
+      "rmse_selection_mm": [
+        1.081941893981226e-14,
+        0.0024484473855923825
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        0.8888888888888888,
+        0.8888888888888888
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.00046855613867064345,
+    "mae_selection_mm": 0.0005768426017859864,
+    "rmse_selection_mm": 0.0029288761382218332,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 0.00021657292638703677,
+    "maxae_selection_mm": 0.021154623129367778,
+    "bias_total_mm": -0.00046855614969117457,
+    "mae_total_mm": 0.0005768426182846951,
+    "rmse_total_mm": 0.002928876138222401,
+    "medae_total_mm": 6.5503158452884236e-15,
+    "p95ae_total_mm": 0.00021657326589797921,
+    "maxae_total_mm": 0.021154623129370442,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "cabinet_floor",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 20,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 20,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 20,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    "binary_iou": 0.9221960406930959,
+    "best_iou_mean": 0.9997490976615001,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9997490976615001,
+    "mean_visible_grid_coverage": 0.9999880268199235,
+    "mean_boundary_recall": 0.9997389854931527,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 7.1232873855267e-05,
+    "mean_centroid_normal_offset_mm": 0.0005147799955737744,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        5.414323155894204e-05,
+        0.0012122368253592278
+      ],
+      "rmse_selection_mm": [
+        0.00048427178509684706,
+        0.004623169946795673
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        0.8888888888888888,
+        0.8888888888888888
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 4.331358269600963e-15,
+    "mae_selection_mm": 4.928439070454668e-15,
+    "rmse_selection_mm": 2.229522135737776e-14,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.369662525527511e-14,
+    "maxae_selection_mm": 1.839001603356744e-13,
+    "bias_total_mm": -1.1016199745526366e-11,
+    "mae_total_mm": 1.6503542759845226e-11,
+    "rmse_total_mm": 6.013693114480865e-11,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.5745888012414225e-10,
+    "maxae_total_mm": 3.5756360584309865e-10,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "oracle_semantics",
+    "mode": "expanded",
+    "condition": "cabinet_floor",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 5.482753113113809e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.6115746567073189e-15,
+        1.0093362848536778e-14
+      ],
+      "rmse_selection_mm": [
+        4.140558495851298e-15,
+        3.708369026419945e-14
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.0003709614344549069,
+    "mae_selection_mm": 0.00037096143446407783,
+    "rmse_selection_mm": 0.0025498714044228884,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 3.6716526306200236e-14,
+    "maxae_selection_mm": 0.021154623129367778,
+    "bias_total_mm": -0.000370961445475438,
+    "mae_total_mm": 0.00037096145096278106,
+    "rmse_total_mm": 0.002549871404423314,
+    "medae_total_mm": 6.217248937900877e-15,
+    "p95ae_total_mm": 1.938896221696614e-10,
+    "maxae_total_mm": 0.021154623129370442,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "oracle_semantics",
+    "mode": "paper",
+    "condition": "cabinet_floor",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9999700262256483,
+    "best_iou_mean": 0.999969182049038,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.999969182049038,
+    "mean_visible_grid_coverage": 0.9999880268199235,
+    "mean_boundary_recall": 0.9998453608247424,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 4.035348332356151e-05,
+    "mean_centroid_normal_offset_mm": 0.0003721661590145362,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 1.6502783642147223e-11,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        3.3767326499538637e-15,
+        0.0010577311564734285
+      ],
+      "rmse_selection_mm": [
+        1.068433163300247e-14,
+        0.004416506825227451
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 60,
+    "valid_rate": 0.75,
+    "bias_selection_mm": -0.013168466296169877,
+    "mae_selection_mm": 0.02552483407245725,
+    "rmse_selection_mm": 0.04675790075109798,
+    "medae_selection_mm": 0.005113387439344641,
+    "p95ae_selection_mm": 0.1141479165302395,
+    "maxae_selection_mm": 0.16974251543567043,
+    "bias_total_mm": -0.02677712455722831,
+    "mae_total_mm": 0.0721075911823377,
+    "rmse_total_mm": 0.13283101565961655,
+    "medae_total_mm": 0.011015296741781783,
+    "p95ae_total_mm": 0.30122555437174986,
+    "maxae_total_mm": 0.5295626279066683,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.4,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "density_gradient",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 60,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "instance_0.5": {
+      "tp": 60,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "instance_0.75": {
+      "tp": 60,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "binary_iou": 0.9250960532834555,
+    "best_iou_mean": 0.7190971562236489,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9587962082981983,
+    "mean_visible_grid_coverage": 0.917643267965098,
+    "mean_boundary_recall": 0.9391694934484445,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.005455125644109113,
+    "mean_centroid_normal_offset_mm": 0.02814440002085117,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 0.0477142262775759,
+    "ci95": {
+      "valid_rate": [
+        0.75,
+        0.75
+      ],
+      "mae_selection_mm": [
+        0.01979515672560173,
+        0.032022464094128664
+      ],
+      "rmse_selection_mm": [
+        0.03623283155065289,
+        0.05722210914034998
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.3375,
+        0.475
+      ],
+      "instance_f1": [
+        0.8571428571428571,
+        0.8571428571428571
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 60,
+    "valid_rate": 0.75,
+    "bias_selection_mm": -0.024871727502600763,
+    "mae_selection_mm": 0.03198928853546354,
+    "rmse_selection_mm": 0.07636400103931375,
+    "medae_selection_mm": 0.005113387439344641,
+    "p95ae_selection_mm": 0.11652374509098087,
+    "maxae_selection_mm": 0.4783872154750499,
+    "bias_total_mm": -0.038480385763659204,
+    "mae_total_mm": 0.07365395817543054,
+    "rmse_total_mm": 0.14054653465460934,
+    "medae_total_mm": 0.011015296741781783,
+    "p95ae_total_mm": 0.3116915159685636,
+    "maxae_total_mm": 0.5295626279066683,
+    "success_02": 0.7375,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.375,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "density_gradient",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 60,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "instance_0.5": {
+      "tp": 60,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "instance_0.75": {
+      "tp": 60,
+      "fp": 0,
+      "fn": 20,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "binary_iou": 0.9244609543786788,
+    "best_iou_mean": 0.718505888676286,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9580078515683811,
+    "mean_visible_grid_coverage": 0.9168102524943141,
+    "mean_boundary_recall": 0.9386463441566131,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.006796118160328133,
+    "mean_centroid_normal_offset_mm": 0.038760359889853505,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 0.0477142262775759,
+    "ci95": {
+      "valid_rate": [
+        0.75,
+        0.75
+      ],
+      "mae_selection_mm": [
+        0.02020201738046468,
+        0.04879049190652142
+      ],
+      "rmse_selection_mm": [
+        0.038689327372088904,
+        0.11718616124648176
+      ],
+      "success_02": [
+        0.7125,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.3125,
+        0.4375
+      ],
+      "instance_f1": [
+        0.8571428571428571,
+        0.8571428571428571
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 2.1026510536005723,
+    "mae_selection_mm": 2.1026510536005723,
+    "rmse_selection_mm": 4.241314526930555,
+    "medae_selection_mm": 6.661338147750939e-16,
+    "p95ae_selection_mm": 9.432543784328839,
+    "maxae_selection_mm": 9.721700876101725,
+    "bias_total_mm": 1.3783768372494918,
+    "mae_total_mm": 1.3783768372494918,
+    "rmse_total_mm": 2.16020057312575,
+    "medae_total_mm": 0.610093238679115,
+    "p95ae_total_mm": 4.509095622456967,
+    "maxae_total_mm": 4.567030744454471,
+    "success_02": 0.75,
+    "success_05": 0.75,
+    "success_10": 0.75,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "mixed",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9600444876759922,
+    "best_iou_mean": 0.9631964792602064,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 0.9631964792602062,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.023608538716749713,
+    "mean_centroid_normal_offset_mm": 1.0727951910727167,
+    "ma_e_noise_mm": 0.428393901666759,
+    "ma_e_visibility_mm": 1.1526681180226244,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        1.9732573367400303,
+        2.2142060068800165
+      ],
+      "rmse_selection_mm": [
+        3.9916903499302383,
+        4.448226487141851
+      ],
+      "success_02": [
+        0.75,
+        0.75
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.01128007869567994,
+    "mae_selection_mm": 0.011280078695680384,
+    "rmse_selection_mm": 0.029161250659288537,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 0.06848590515782313,
+    "maxae_selection_mm": 0.12180336598108443,
+    "bias_total_mm": -0.7355542950467603,
+    "mae_total_mm": 1.3717830916218856,
+    "rmse_total_mm": 2.2054762625352446,
+    "medae_total_mm": 0.610093238679115,
+    "p95ae_total_mm": 5.009030432141509,
+    "maxae_total_mm": 5.219863349980765,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "mixed",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9991534559222636,
+    "best_iou_mean": 0.999129572871915,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9991295728719152,
+    "mean_visible_grid_coverage": 0.999976035148449,
+    "mean_boundary_recall": 0.9993401239398434,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.0005202318432969272,
+    "mean_centroid_normal_offset_mm": 0.009654653223094707,
+    "ma_e_noise_mm": 0.428393901666759,
+    "ma_e_visibility_mm": 1.1526681180226244,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.007234574284864877,
+        0.015277952991826674
+      ],
+      "rmse_selection_mm": [
+        0.020857879925261613,
+        0.036031147779131086
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": 0.0,
+    "mae_selection_mm": 5.551115123125783e-16,
+    "rmse_selection_mm": 7.934405965296329e-16,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 1.7763568394002505e-15,
+    "maxae_selection_mm": 2.6645352591003757e-15,
+    "bias_total_mm": -0.7242742163510805,
+    "mae_total_mm": 1.3777418760315423,
+    "rmse_total_mm": 2.2029093529241996,
+    "medae_total_mm": 0.610093238679115,
+    "p95ae_total_mm": 5.009030432141509,
+    "maxae_total_mm": 5.219863349980765,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "oracle_semantics",
+    "mode": "expanded",
+    "condition": "mixed",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 1.0,
+    "best_iou_mean": 1.0,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 1.0,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 4.0977090736004057e-07,
+    "mean_centroid_normal_offset_mm": 0.0,
+    "ma_e_noise_mm": 0.428393901666759,
+    "ma_e_visibility_mm": 1.1526681180226244,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        4.2327252813834093e-16,
+        6.953118636410236e-16
+      ],
+      "rmse_selection_mm": [
+        6.253140742184569e-16,
+        9.47681197273986e-16
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.01131642975649696,
+    "mae_selection_mm": 0.011316429756497404,
+    "rmse_selection_mm": 0.029236234628496945,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 0.06866417614943447,
+    "maxae_selection_mm": 0.12180336598108443,
+    "bias_total_mm": -0.7355906461075775,
+    "mae_total_mm": 1.371675425478936,
+    "rmse_total_mm": 2.2054758577844527,
+    "medae_total_mm": 0.610093238679115,
+    "p95ae_total_mm": 5.009030432141509,
+    "maxae_total_mm": 5.219863349980765,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "oracle_semantics",
+    "mode": "paper",
+    "condition": "mixed",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9991511567835987,
+    "best_iou_mean": 0.999126523336856,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9991265233368563,
+    "mean_visible_grid_coverage": 0.999976035148449,
+    "mean_boundary_recall": 0.9993151239398435,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.000523114556829803,
+    "mean_centroid_normal_offset_mm": 0.009691802075675531,
+    "ma_e_noise_mm": 0.428393901666759,
+    "ma_e_visibility_mm": 1.1526681180226244,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.0073916916946228555,
+        0.01547281187564132
+      ],
+      "rmse_selection_mm": [
+        0.021353712370940033,
+        0.03638727068467434
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.08260519371228445,
+    "mae_selection_mm": 0.08260519371247552,
+    "rmse_selection_mm": 0.24982859604983654,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 0.5552077958549455,
+    "maxae_selection_mm": 1.1018198118325317,
+    "bias_total_mm": -0.07023231589334046,
+    "mae_total_mm": 0.07686231859534222,
+    "rmse_total_mm": 0.21046969853787925,
+    "medae_total_mm": 8.43769498715119e-15,
+    "p95ae_total_mm": 0.5608777984237253,
+    "maxae_total_mm": 0.8726186387310206,
+    "success_02": 0.875,
+    "success_05": 0.9375,
+    "success_10": 0.975,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "split_wall",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 60,
+      "fp": 20,
+      "fn": 20,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    "binary_iou": 0.8815662993149205,
+    "best_iou_mean": 0.8759206638262291,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.8759206638262291,
+    "mean_visible_grid_coverage": 0.8742871107387238,
+    "mean_boundary_recall": 0.8773716857580615,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.01961748917855794,
+    "mean_centroid_normal_offset_mm": 0.23862555332437232,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 0.03201178737656819,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.043378868175016204,
+        0.1247376847495453
+      ],
+      "rmse_selection_mm": [
+        0.14484969903268638,
+        0.330494537537555
+      ],
+      "success_02": [
+        0.825,
+        0.925
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 80,
+    "n_valid": 80,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.08271172235762658,
+    "mae_selection_mm": 0.08271172235781757,
+    "rmse_selection_mm": 0.24983041302534542,
+    "medae_selection_mm": 8.881784197001252e-16,
+    "p95ae_selection_mm": 0.5552077958549455,
+    "maxae_selection_mm": 1.1018198118325317,
+    "bias_total_mm": -0.07033884453868258,
+    "mae_total_mm": 0.07696884724068434,
+    "rmse_total_mm": 0.21047185529378518,
+    "medae_total_mm": 8.881784197001252e-15,
+    "p95ae_total_mm": 0.5608777984237253,
+    "maxae_total_mm": 0.8726186387310206,
+    "success_02": 0.875,
+    "success_05": 0.9375,
+    "success_10": 0.975,
+    "strict_joint_success": 0.75,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "split_wall",
+    "pipeline_failures": 0,
+    "room_joint_success": 0.0,
+    "room_joint_success_exact_ci95": [
+      0.0,
+      0.16843347098308528
+    ],
+    "instance_0.25": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 80,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 60,
+      "fp": 20,
+      "fn": 20,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    },
+    "binary_iou": 0.8815583362634791,
+    "best_iou_mean": 0.8759117543465427,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.8759117543465427,
+    "mean_visible_grid_coverage": 0.8742871107387238,
+    "mean_boundary_recall": 0.8773716857580615,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 0.01962559346777622,
+    "mean_centroid_normal_offset_mm": 0.23873269924879725,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 0.03201178737656819,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.04218539042094245,
+        0.12469008898509094
+      ],
+      "rmse_selection_mm": [
+        0.14152394632593918,
+        0.3300355224630561
+      ],
+      "success_02": [
+        0.825,
+        0.9375
+      ],
+      "strict_joint_success": [
+        0.75,
+        0.75
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        0.0,
+        0.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 120,
+    "n_valid": 120,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.00026585650711109825,
+    "mae_selection_mm": 0.0003690514832321574,
+    "rmse_selection_mm": 0.0019475325519198246,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 0.0017442207944362116,
+    "maxae_selection_mm": 0.017068731243302437,
+    "bias_total_mm": -0.00026585651360754145,
+    "mae_total_mm": 0.00036905149025299024,
+    "rmse_total_mm": 0.0019475325519199473,
+    "medae_total_mm": 7.105427357601002e-15,
+    "p95ae_total_mm": 0.0017442207944388761,
+    "maxae_total_mm": 0.01706873124330155,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "expanded",
+    "condition": "l_room",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 120,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 120,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 120,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9992991686585361,
+    "best_iou_mean": 0.9995405530933026,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9995405530933026,
+    "mean_visible_grid_coverage": 1.0,
+    "mean_boundary_recall": 0.9996737907329656,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 3.572161045842866e-05,
+    "mean_centroid_normal_offset_mm": 0.0008035542056013636,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 7.022625657280963e-12,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        7.849827823422706e-05,
+        0.0007555925462532271
+      ],
+      "rmse_selection_mm": [
+        0.00046836441844473083,
+        0.0031079447338850275
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  },
+  {
+    "n_target_walls": 120,
+    "n_valid": 120,
+    "valid_rate": 1.0,
+    "bias_selection_mm": -0.0008077897479076938,
+    "mae_selection_mm": 0.0009109847240287531,
+    "rmse_selection_mm": 0.00463620836991198,
+    "medae_selection_mm": 4.440892098500626e-16,
+    "p95ae_selection_mm": 0.003574267973285105,
+    "maxae_selection_mm": 0.03500113375126812,
+    "bias_total_mm": -0.0008077897544041371,
+    "mae_total_mm": 0.0009109847310495562,
+    "rmse_total_mm": 0.004636208369912102,
+    "medae_total_mm": 7.438494264988549e-15,
+    "p95ae_total_mm": 0.0035742679732851386,
+    "maxae_total_mm": 0.035001133751270785,
+    "success_02": 1.0,
+    "success_05": 1.0,
+    "success_10": 1.0,
+    "strict_joint_success": 1.0,
+    "defect_joint_success": null,
+    "n_rooms": 20,
+    "source": "geometry",
+    "mode": "paper",
+    "condition": "l_room",
+    "pipeline_failures": 0,
+    "room_joint_success": 1.0,
+    "room_joint_success_exact_ci95": [
+      0.8315665290169146,
+      1.0
+    ],
+    "instance_0.25": {
+      "tp": 120,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.5": {
+      "tp": 120,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "instance_0.75": {
+      "tp": 120,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "binary_iou": 0.9992340602931595,
+    "best_iou_mean": 0.9994959790448759,
+    "split_count": 0.0,
+    "merge_count": 0.0,
+    "mean_precision": 1.0,
+    "mean_recall": 0.9994959790448761,
+    "mean_visible_grid_coverage": 0.9999820616871969,
+    "mean_boundary_recall": 0.9995007556783848,
+    "mean_defect_recall": null,
+    "mean_normal_error_deg": 8.77890885014273e-05,
+    "mean_centroid_normal_offset_mm": 0.0013463157404898778,
+    "ma_e_noise_mm": 0.0,
+    "ma_e_visibility_mm": 7.022625657280963e-12,
+    "ci95": {
+      "valid_rate": [
+        1.0,
+        1.0
+      ],
+      "mae_selection_mm": [
+        0.00025870181020269304,
+        0.0017149056203752098
+      ],
+      "rmse_selection_mm": [
+        0.0014931925301994403,
+        0.006786997276707398
+      ],
+      "success_02": [
+        1.0,
+        1.0
+      ],
+      "strict_joint_success": [
+        1.0,
+        1.0
+      ],
+      "instance_f1": [
+        1.0,
+        1.0
+      ],
+      "room_joint_success": [
+        1.0,
+        1.0
+      ]
+    },
+    "ci_method": "2000 percentile resamples of room seeds; degenerate intervals are descriptive, not proof of certainty"
+  }
+]
